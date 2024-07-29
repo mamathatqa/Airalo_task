@@ -12,6 +12,14 @@ This project is created using Cypress with JavaScript.
 
 ## Getting Started
 
+## Dependencies
+
+All dependencies required to run the project are listed in the `package.json` file. Make sure to install them by running:
+
+```sh
+npm install
+```
+
 ### Running the Project
 
 To run the project, you can use the following commands:
@@ -31,15 +39,8 @@ npm test. It opens the cypress runner Ui and you can select the specs to run.
 - cypress/cypress.config.js: Contains the environment variables needed to run the tests.
 - cypress/package.json: Contains the dependencies for running the project.
 
-## Dependencies
-
-All dependencies required to run the project are listed in the `package.json` file. Make sure to install them by running:
-
-```sh
-npm install
-```
-
 ## Additional Information
+Regarding the task, the ui task is automated in cypress/e2e/ui_task.cy.js and the api task is automated in cypress/e2e/api_task.cy.js
 
 For more detailed documentation, visit the [Cypress Documentation](https://docs.cypress.io).
 
