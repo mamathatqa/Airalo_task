@@ -7,8 +7,8 @@ This project is created using Cypress with JavaScript.
 
 ## Project Details
 
-- **Cypress Version**: 13
-- **JavaScript Version**: 14
+- **Cypress Version**: 13.13.1
+- **Node JS  Version**: 20.16
 
 ## Getting Started
 
@@ -23,13 +23,13 @@ npm test. It opens the cypress runner Ui and you can select the specs to run.
 
 ## Project Structure
 
-- **e2e Folder**: Contains the actual spec files that run when executing Cypress tests.
-- **fixtures Folder**: Contains the test data files needed for the spec files.
+- cypress/e2e/*.spec.js: Contains the actual spec files that run when executing Cypress tests.
+- cypress/fixtures/*.json: Contains the test data files needed for the spec files.
 - **support Folder**: 
-  - **pageObjects**: Contains separate files for each page, where all the pages displayed are maintained.
-  - **commands.js**: Contains all the reusable code for UI and API tests.
-- **cypress.config.js**: Contains the environment variables needed to run the tests.
-- **package.json**: Contains the dependencies for running the project.
+  - cypress/pageObjects/*.js: Contains separate files for each page, where all the pages displayed are maintained.
+  - cypress/support/commands.js: Contains all the reusable code for UI and API tests.
+- cypress/cypress.config.js: Contains the environment variables needed to run the tests.
+- cypress/package.json: Contains the dependencies for running the project.
 
 ## Dependencies
 
