@@ -1,0 +1,23 @@
+{
+  "plan":{
+    "country":"Japan",
+    "details":[
+      {
+        "type":"COVERAGE",
+        "value":"Japan"
+      },
+      {
+        "type":"DATA",
+        "value":"1 GB"
+      },
+      {
+        "type":"VALIDITY",
+        "value":"7 Days"
+      },
+      {
+        "type":"PRICE",
+        "value":"$4.50 USD"
+      }
+    ]
+  }
+}
