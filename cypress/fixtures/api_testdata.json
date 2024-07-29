@@ -1,0 +1,12 @@
+{
+    "orderDetails" : {
+        "quantity" : "6",
+        "package_id" : "merhaba-7days-1gb",
+        "type" : "sim",
+        "description" : "6 merhaba-7days-1gb"
+    },
+    "orderFilters" : {
+         "limit" : 100,
+         "page" : 1
+     }
+}
