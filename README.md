@@ -4,6 +4,7 @@
 # Cypress Project
 
 This project is created using Cypress with JavaScript.
+The Working code is available at MAIN Branch.
 
 ## Project Details
 
@@ -11,6 +12,10 @@ This project is created using Cypress with JavaScript.
 - **Node JS  Version**: 20.16
 
 ## Getting Started
+Clone the Project using
+>> git clone <clone url>
+Checkout  MAIN BRANCH using
+>> git checkout main.
 
 ## Dependencies
 
@@ -21,6 +26,7 @@ npm install
 ```
 
 ### Running the Project
+Regarding the task, the ui task is automated in cypress/e2e/ui_task.cy.js and the api task is automated in cypress/e2e/api_task.cy.js
 
 To run the project, you can use the following commands:
 
@@ -40,7 +46,6 @@ npm test. It opens the cypress runner Ui and you can select the specs to run.
 - cypress/package.json: Contains the dependencies for running the project.
 
 ## Additional Information
-Regarding the task, the ui task is automated in cypress/e2e/ui_task.cy.js and the api task is automated in cypress/e2e/api_task.cy.js
 
 For more detailed documentation, visit the [Cypress Documentation](https://docs.cypress.io).
 
